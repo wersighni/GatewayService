@@ -28,6 +28,11 @@ spring:
          uri: http://localhost:8084
          predicates:
            - Path=/api/forum/**
+#-----------Ged---------------------
+       - id: Ged_Service
+         uri: http://localhost:8088
+         predicates:
+           - Path=/api/file/**
 
 #-----------Project-------------------
        - id: project-service
